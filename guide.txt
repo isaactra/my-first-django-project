@@ -1,0 +1,18 @@
+"""
+OUTIL DE POINTAGE POUR CONNAITRE:
+- HEURE D'ARRIVEE AU BUREAU 
+- HEURE DE DEPART DU BUREAU 
+"""
+
+1- Create virtual environment: python3 -m venv (yourprojectname)
+2- Activate virtual environment: . (yourprojectname)/bin/activate 
+3- Create requirements.txt file and type in all the required tools you need for your project. In this case it's Django so we type in the version of Django we need: Django~=4.1.5
+4- install django now: pip install -r requirements.txt 
+5- Create your django project by typing: django-admin startproject (yourprojectname) . (Dont forget the dot a the end, it's important)
+6- To create the database type this commande: python manage.py migrate 
+7- To launch the django web server type: python manage.py runserver 
+8- Create an app: python manage.py startapp (yourappname)
+9- Create your project's models in yourappname/models.py
+10- Let django know you created new models: python manage.py makemigrations (yourappname)
+11- Now let django create the new needed tables in your db for your new models: python manage.py migrate (yourappname)
+12- To create admin user to manage the entier websit from the admin dashboard: python manage.py createsuperuser
