@@ -16,4 +16,3 @@ OUTIL DE POINTAGE POUR CONNAITRE:
 10- Let django know you created new models: python manage.py makemigrations (yourappname)
 11- Now let django create the new needed tables in your db for your new models: python manage.py migrate (yourappname)
 12- To create admin user to manage the entier websit from the admin dashboard: python manage.py createsuperuser
-13- To push anything on github: git remote add origin https://github.com/(yourgitusername)/(your_repo_name on git).git
